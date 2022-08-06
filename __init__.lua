@@ -1,3 +1,6 @@
+require("hud")
+require("mapvote")
+
 players = {}
 
 function player_connected(player)
