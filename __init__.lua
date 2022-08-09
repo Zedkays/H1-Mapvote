@@ -16,3 +16,11 @@ level:onnotify("connected", mapvoteconnected)
 local function starts_with(str, start)
     return str:sub(1, #start) == start
 end
+
+function entity:is_bot()
+    if (starts_with(self:getguid(), "bot")) then
+        return true
+    else
+        return false
+    end
+end
