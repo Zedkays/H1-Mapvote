@@ -51,9 +51,55 @@ elseif map1 == "mp_overgrown" then
     map1clean = "Overgrown"
 elseif map1 == "mp_shipment" then
     map1clean = "Shipment"
+elseif map1 == "mp_vacant" then
+    map1clean = "Vacant"
+elseif map1 == "mp_broadcast" then
+    map1clean = "Broadcast"
+elseif map1 == "mp_carentan" then
+    map1clean = "Chinatown"
+elseif map1 == "mp_countdown" then
+    map1clean = "Countdown"
+elseif map1 == "mp_bloc" then
+    map1clean = "Bloc"
+elseif map1 == "mp_creek" then
+    map1clean = "Creek"
+elseif map1 == "mp_pipeline" then
+    map1clean = "Pipeline"
+elseif map1 == "mp_strike" then
+    map1clean = "Strike"
+elseif map1 == "mp_showdown" then
+    map1clean = "Showdown"
+elseif map1 == "mp_cargoship" then
+    map1clean = "Wet Work"
+elseif map1 == "mp_killhouse" then
+    map1clean = "Killhouse"
+elseif map1 == "mp_crash_snow" then
+    map1clean = "Winter Crash"
+elseif map1 == "mp_farm_spring" then
+    map1clean = "Day Break"
+elseif map1 == "mp_bog_summer" then
+    map1clean = "Beach Bog"
 end
 
-if map2 == "mp_vacant" then
+if map2 == "mp_convoy" then
+    map2clean = "Ambush"
+elseif map2 == "mp_backlot" then
+    map2clean = "Backlot"
+elseif map2 == "mp_bog" then
+    map2clean = "Bog"
+elseif map2 == "mp_crash" then
+    map2clean = "Crash"
+elseif map2 == "mp_crossfire" then
+    map2clean = "Crossfire"
+elseif map2 == "mp_citystreets" then
+    map2clean = "District"
+elseif map2 == "mp_farm" then
+    map2clean = "Downpour"
+elseif map2 == "mp_overgrown" then
+    map2clean = "Overgrown"
+elseif map2 == "mp_shipment" then
+    map2clean = "Shipment"
+elseif map2 == "mp_vacant" then
     map2clean = "Vacant"
 elseif map2 == "mp_broadcast" then
     map2clean = "Broadcast"
@@ -69,10 +115,56 @@ elseif map2 == "mp_pipeline" then
     map2clean = "Pipeline"
 elseif map2 == "mp_strike" then
     map2clean = "Strike"
+elseif map2 == "mp_showdown" then
+    map2clean = "Showdown"
+elseif map2 == "mp_cargoship" then
+    map2clean = "Wet Work"
+elseif map2 == "mp_killhouse" then
+    map2clean = "Killhouse"
+elseif map2 == "mp_crash_snow" then
+    map2clean = "Winter Crash"
+elseif map2 == "mp_farm_spring" then
+    map2clean = "Day Break"
+elseif map2 == "mp_bog_summer" then
+    map2clean = "Beach Bog"
 end
 
-if map3 == "mp_showdown" then
+if map3 == "mp_convoy" then
+    map3clean = "Ambush"
+elseif map3 == "mp_backlot" then
+    map3clean = "Backlot"
+elseif map3 == "mp_bog" then
+    map3clean = "Bog"
+elseif map3 == "mp_crash" then
+    map3clean = "Crash"
+elseif map3 == "mp_crossfire" then
+    map3clean = "Crossfire"
+elseif map3 == "mp_citystreets" then
+    map3clean = "District"
+elseif map3 == "mp_farm" then
+    map3clean = "Downpour"
+elseif map3 == "mp_overgrown" then
+    map3clean = "Overgrown"
+elseif map3 == "mp_shipment" then
+    map3clean = "Shipment"
+elseif map3 == "mp_vacant" then
     map3clean = "Vacant"
+elseif map3 == "mp_broadcast" then
+    map3clean = "Broadcast"
+elseif map3 == "mp_carentan" then
+    map3clean = "Chinatown"
+elseif map3 == "mp_countdown" then
+    map3clean = "Countdown"
+elseif map3 == "mp_bloc" then
+    map3clean = "Bloc"
+elseif map3 == "mp_creek" then
+    map3clean = "Creek"
+elseif map3 == "mp_pipeline" then
+    map3clean = "Pipeline"
+elseif map3 == "mp_strike" then
+    map3clean = "Strike"
+elseif map3 == "mp_showdown" then
+    map3clean = "Showdown"
 elseif map3 == "mp_cargoship" then
     map3clean = "Wet Work"
 elseif map3 == "mp_killhouse" then
@@ -84,7 +176,6 @@ elseif map3 == "mp_farm_spring" then
 elseif map3 == "mp_bog_summer" then
     map3clean = "Beach Bog"
 end
-
 config.started = false
 
 function mapvote()
